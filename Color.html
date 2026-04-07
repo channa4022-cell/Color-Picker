@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="color.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>🎨 Color Picker</h2>
+
+  <!-- Color Input -->
+  <input type="color" id="colorPicker">
+
+  <!-- Display Selected Color -->
+  <div id="colorBox"></div>
+
+  <!-- HEX Code -->
+  <p id="colorCode">#000000</p>
+
+  <!-- Copy Button -->
+  <button onclick="copyColor()">Copy HEX</button>
+
+  <!-- History -->
+  <h3>Palette History</h3>
+  <div id="history"></div>
+</div>
+
+<script src="color.js"></script>
+</body>
+</html>
