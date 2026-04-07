@@ -1,0 +1,109 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+/* Main Container */
+.container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Color Input */
+input[type="color"] {
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Color Display Box */
+#colorBox {
+  width: 100%;
+  height: 120px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  transition: 0.3s;
+}
+
+/* HEX Code Text */
+#colorCode {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4a6cf7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button Hover */
+button:hover {
+  background: #2f4ed8;
+  transform: scale(1.03);
+}
+
+/* History Title */
+h3 {
+  margin-top: 15px;
+  color: #333;
+}
+
+/* History Container */
+#history {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/* Each Color Box */
+.color-item {
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: 0.2s;
+}
+
+/* Hover Effect */
+.color-item:hover {
+  transform: scale(1.1);
+  border: 2px solid #333;
+}
